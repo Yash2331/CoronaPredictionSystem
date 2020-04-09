@@ -1,0 +1,43 @@
+body{
+    -moz-transform: scale(0.5, 0.5); /* Moz-browsers */
+    zoom: 0.5; /* Other non-webkit browsers */
+    zoom: 50%; /* Webkit browsers */
+    background-color:rgba(0, 0, 0, 0.25); 
+}
+
+.MapDiv{
+    padding-left: 30%;
+    width: 100%;
+  height: 100%; 
+    position: absolute;  
+    
+    top:0px;
+    left:0px;
+}
+
+path{
+    fill: rgb(253, 250, 250);
+    transition: .6s fill;}
+path:hover{
+    fill: #fc8383;
+    cursor: pointer;
+    transition-timing-function: ease-out;
+}
+
+svg text:hover{
+    cursor: pointer;
+    
+    
+}
+
+#div1{
+    text-align: left;
+    width: fit-content;
+   margin-top: 27%;
+}
+.label{
+    text-align: right;
+    font-size: 50px;
+    background-color: white;
+    
+}
